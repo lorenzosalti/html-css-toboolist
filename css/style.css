@@ -48,7 +48,7 @@ main {
     margin: 0px 168px;
 }
 
-/*  Bottoni  */
+/****  Bottoni  ****/
 #add {
     padding: 22px 0px 15px 50px;
     border-radius: 10px 10px 0px 0px;
@@ -73,24 +73,96 @@ main {
 #add-section {
     color: #d3d8dc;
 }
-/*  /Bottoni  */
+/****  /Bottoni  ****/
 
-/*  Lista  */
+/****  Lista  ****/
 #list {
     padding: 35px 0px 1px 50px;
     border-radius: 0px 0px 10px 10px;
 }
 
+/*  Struttura principale  */
 .cat {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 
 .title {
     font-size: x-large;
     font-weight: bold;
+    margin-bottom: 6px;
 }
 
-/*.task {
+.task {
+    display: inline-block;
+    margin-bottom: 18px;
+}
+/*  /Struttura principale  */
+
+/*  Spunte  */
+.check {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    font-size: xx-small;
+    padding-left: 3px;
+    margin-right: 10px;
+}
+
+.yes {
+    color: #4ccfb8;
+}
+
+.no {
+    color: #ff1010;
+}
+/*  /Spunte  */
+
+/*  Testo  */
+.text {
+    font-weight: 500;
+}
+/*  /Testo  */
+
+/*  Dipartimenti  */
+.dep {
     display: inline;
-}*/
-/*  /Lista  */
+    padding: 6px 8px;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 12px;
+    font-size: x-small;
+    color: #ffffff;
+}
+
+.editorial {
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+}
+
+.goals {
+    background-color: #ab5de6;
+    border-color: #ab5de6;
+}
+
+.recruiting {
+    background-color: #2cc6ab;
+    border-color: #2cc6ab;
+}
+
+.mobile {
+    background-color: #ff9b00;
+    border-color: #ff9b00;
+}
+
+.website {
+    background-color: #ec4a9d;
+    border-color: #ec4a9d;
+}
+
+.sales {
+    background-color: #a3d116;
+    border-color: #a3d116;
+}
+/*  /Dipartimenti  */
+/****  /Lista  ****/
