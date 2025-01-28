@@ -74,3 +74,23 @@ main {
     color: #d3d8dc;
 }
 /*  /Bottoni  */
+
+/*  Lista  */
+#list {
+    padding: 35px 0px 1px 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.cat {
+    margin-bottom: 35px;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*.task {
+    display: inline;
+}*/
+/*  /Lista  */
