@@ -6,4 +6,30 @@ Reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial;
+}
+
+/*****
+Global
+*****/
+
+body {
+    background-color: #f6f8f9;
+}
+
+.corpi {
+    background-color: #FFFFFF;
+}
+
+/*****
+Header
+*****/
+
+#main-logo {
+    padding: 10px 0px 10px 20px;
+}
+
+#title {
+    display: inline-block;
+    font-size: 28px;
 }
