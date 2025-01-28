@@ -25,11 +25,17 @@ body {
 Header
 *****/
 
-#main-logo {
+header {
     padding: 10px 0px 10px 20px;
+    margin-bottom: 40px;
+}
+
+.head {
+    vertical-align: middle;
 }
 
 #title {
     display: inline-block;
-    font-size: 28px;
+    font-size: 40px;
+    font-weight: bold;
 }
