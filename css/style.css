@@ -39,3 +39,38 @@ header {
     font-size: 40px;
     font-weight: bold;
 }
+
+/***
+Main
+***/
+
+main {
+    margin: 0px 168px;
+}
+
+/*  Bottoni  */
+#add {
+    padding: 22px 0px 15px 50px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 2px;
+}
+
+.buttons {
+    display: inline;
+    padding: 8px 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+#add-task {
+    background-color: #14aaf5;
+    color: #ffffff;
+    border-color: #14aaf5;
+}
+
+#add-section {
+    color: #d3d8dc;
+}
+/*  /Bottoni  */
